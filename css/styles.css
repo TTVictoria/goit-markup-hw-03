@@ -141,34 +141,6 @@ color: #434455;
 margin: 0;
 padding: 0;}
 
-/*футер*/
-.footer {
-    background-color: #2e2f42;
-}
-
-.logo-footer {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    text-decoration: none;
-}
-
-.logo-studio-footer {
-    color: #f4f4fd;
-}
-
-.footer-paragraph {
-    line-height: 1.5;
-    color: #F4F4FD;
-    letter-spacing: 0.02em;
-    margin: 0;
-    padding: 0;
-}
-
 
 
 .ourteam {
@@ -264,4 +236,36 @@ margin: 0;}
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+/*футер*/
+.footer {
+    background-color: #2e2f42;
+    padding: 100px 0; /*для визначення відступів всередині секції*/
+}
+
+.logo-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+    display: inline-block; /*для додавання посиланню блочних властивостей*/
+    margin-bottom: 16px; /*для визначення відступу між посиланням та параграфом*/
+}
+
+.logo-studio-footer {
+    color: #f4f4fd;
+}
+
+.footer-paragraph {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+    margin: 0;
+    padding: 0;
+    max-width: 264px; /*для визначення максимально допустимої ширини тексту*/
 }
