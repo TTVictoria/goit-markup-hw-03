@@ -7,7 +7,7 @@ body {
 }
 
 /*для визначення оформлення нижнього краю хедера*/
-.container-header-class {
+.container-header-div {
     border-bottom: 1px solid #e7e9fc;
     width: 1158px;
     margin: 0 auto;
@@ -17,7 +17,7 @@ body {
 }
 
 /*для розміщення навігації та контактів в одну лінію*/
-.header-div {display: flex;}
+.header-class {display: flex;}
 
 .logo {
     color: var(--IRIS, #4D5AE5);
@@ -34,7 +34,8 @@ body {
 
 .logo-studio {
     color: #2e2f42;
-    font-family: "Raleway";}
+    font-family: "Raleway";
+} 
 
     /*для розміщення логотипу та меню в одну лінію*/
 .nav-header {
@@ -75,10 +76,13 @@ body {
     text-decoration: none;
     margin: 0;
     padding-left: 0;
+    padding: 24px 0;
 }
 
 .address {
     font-style: normal;
+    display: flex; /*для розташування контактів по горизонталі*/
+    gap: 40px; /*для визначення відступів між пунктами контактів*/
 }
 .kontakt {
 font-style: normal;
