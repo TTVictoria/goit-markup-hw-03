@@ -6,6 +6,18 @@ body {
     padding: 0;
 }
 
+/*для визначення оформлення нижнього краю хедера*/
+.container-header-class {
+    border-bottom: 1px solid #e7e9fc;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+    display: flex; /*для розташування пунктів меню по горизонталі*/
+    gap: 40px; /*для визначення відступів між пунктами меню*/
+}
+
+/*для розміщення навігації та контактів в одну лінію*/
+.header-div {display: flex;}
 
 .logo {
     color: var(--IRIS, #4D5AE5);
@@ -17,11 +29,18 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
+    margin-right: 76px; /*для визначення відступа від логотипа*/
 }
 
-.logo-studio{
+.logo-studio {
     color: #2e2f42;
     font-family: "Raleway";}
+
+    /*для розміщення логотипу та меню в одну лінію*/
+.nav-header {
+    display: flex;
+    align-items: center;
+}
 
 .page-nav {
     color: var(--NAVY-BLUE, #2e2f42);
