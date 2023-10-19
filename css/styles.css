@@ -101,6 +101,8 @@ color: #434455;
     list-style-type: none;
     margin: 0;
     padding-left: 0;
+    display: flex;
+    gap: 40px;
 }
 
 
@@ -120,7 +122,9 @@ text-align: center;
 letter-spacing: 0.02em;
 color: #ffffff;
 margin: 0;
-padding: 0;}
+padding: 0;
+max-width: 496px;
+}
 
 .button {
 background-color: #4D5AE5;
@@ -131,6 +135,9 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #ffffff;
 cursor: pointer;
+display: block;
+min-width: 169px;
+border: none; /*для вимкнення стандартного оформлення кнопки*/
 }
 .button:hover {background-color: #404BBF;}
 .button:focus {background-color: #404BBF;}
