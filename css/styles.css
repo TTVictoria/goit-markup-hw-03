@@ -138,6 +138,8 @@ cursor: pointer;
 display: block;
 min-width: 169px;
 border: none; /*для вимкнення стандартного оформлення кнопки*/
+height: 56px;
+border-radius: 4px; /*для визначення заокруглень у кнопки*/
 }
 .button:hover {background-color: #404BBF;}
 .button:focus {background-color: #404BBF;}
