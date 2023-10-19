@@ -5,18 +5,22 @@ body {
     margin: 0;
     padding: 0;
 }
-.container-header-div {
+.container {
     border-bottom: 1px solid #e7e9fc;
-    width: 1158px;
+    max-width: 1158px;
     margin: 0 auto;
-    padding: 0 15px 0 15px;
+    padding: 0 15px;
     display: flex; /*для розташування пунктів меню по горизонталі*/
     gap: 40px; /*для визначення відступів між пунктами меню*/
+    justify-content: space-between;
+    align-items: center; 
 }
 
 .header-class {
     display: flex;
-    bottom: 1px solid #e7e9fc;}
+    bottom: 1px solid #e7e9fc;
+justify-content: center;
+align-items: center;}
 
 .logo {
     color: var(--IRIS, #4D5AE5);
