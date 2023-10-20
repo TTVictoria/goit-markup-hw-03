@@ -238,7 +238,12 @@ padding: 0;
  
 .ul {list-style: none;
 padding-left: 0;
-margin: 0;}
+margin: 0;
+display: flex;
+gap: 24px;}
+
+.li-about {
+    width: calc ((100%-72px)/4);}
 
 .li-portfolio {list-style-type: none;
 padding-left: 0;
