@@ -5,22 +5,26 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .container {
     border-bottom: 1px solid #e7e9fc;
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    display: flex; /*для розташування пунктів меню по горизонталі*/
-    gap: 40px; /*для визначення відступів між пунктами меню*/
+    display: flex;
+    /*для розташування пунктів меню по горизонталі*/
+    gap: 40px;
+    /*для визначення відступів між пунктами меню*/
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
 }
 
 .header-class {
     display: flex;
     bottom: 1px solid #e7e9fc;
-justify-content: center;
-align-items: center;}
+    justify-content: center;
+    align-items: center;
+}
 
 .logo {
     color: var(--IRIS, #4D5AE5);
@@ -32,15 +36,16 @@ align-items: center;}
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    margin-right: 76px; /*для визначення відступа від логотипа*/
+    margin-right: 76px;
+    /*для визначення відступа від логотипа*/
 }
 
 .logo-studio {
     color: #2e2f42;
     font-family: "Raleway";
-} 
+}
 
-    /*для розміщення логотипу та меню в одну лінію*/
+/*для розміщення логотипу та меню в одну лінію*/
 .nav-header {
     display: flex;
     align-items: center;
@@ -51,13 +56,14 @@ align-items: center;}
     font-family: "Roboto";
     font-size: 16px;
     font-weight: 500;
-    line-height: 1,5;
+    line-height: 1, 5;
     letter-spacing: 0.02em;
     list-style-type: none;
     margin: 0;
     padding-left: 0;
     display: flex;
 }
+
 .a .nav-link {
     font-weight: 500;
     font-size: 16px;
@@ -68,12 +74,29 @@ align-items: center;}
 
 }
 
-.page-nav a.nav-link:hover {color: #404bbf;}
-.page-nav a.nav-link:focus {color: #404bbf;}
-.page-nav:hover {color: #4D5AE5;}
-.page-nav:active {color: #404BBF;}
-.nav-link a:hover {color: #404bbf;}
-.nav-link a:focus {color: #404bbf;}
+.page-nav a.nav-link:hover {
+    color: #404bbf;
+}
+
+.page-nav a.nav-link:focus {
+    color: #404bbf;
+}
+
+.page-nav:hover {
+    color: #4D5AE5;
+}
+
+.page-nav:active {
+    color: #404BBF;
+}
+
+.nav-link a:hover {
+    color: #404bbf;
+}
+
+.nav-link a:focus {
+    color: #404bbf;
+}
 
 .nav-link {
     line-height: 1.5;
@@ -86,18 +109,28 @@ align-items: center;}
 
 .address {
     font-style: normal;
-    display: flex; /*для розташування контактів по горизонталі*/
-    gap: 40px; /*для визначення відступів між пунктами контактів*/
+    display: flex;
+    /*для розташування контактів по горизонталі*/
+    gap: 40px;
+    /*для визначення відступів між пунктами контактів*/
 }
+
 .kontakt {
-font-style: normal;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
-.kontakt:hover {color: #404bbf;}
-.kontakt:focus {color: #404bbf;}
-.ul-kontakt{
+
+.kontakt:hover {
+    color: #404bbf;
+}
+
+.kontakt:focus {
+    color: #404bbf;
+}
+
+.ul-kontakt {
     list-style-type: none;
     margin: 0;
     padding-left: 0;
@@ -108,60 +141,100 @@ color: #434455;
 
 .section-effective {
     background-color: #2e2f42;
-    padding: 188px 0; /*для визначення відступів всередині секції*/
+    padding: 188px 0;
+    /*для визначення відступів всередині секції*/
     justify-content: center;
 }
 
-.section-container {
-}
+
 
 .h-effective {
-font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
-color: #ffffff;
-margin: 0;
-padding: 0;
-max-width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    max-width: 496px;
 }
 
 .button {
-background-color: #4D5AE5;
-font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #ffffff;
-cursor: pointer;
-display: block;
-min-width: 169px;
-border: none; /*для вимкнення стандартного оформлення кнопки*/
-height: 56px;
-border-radius: 4px; /*для визначення заокруглень у кнопки*/
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    border: none;
+    /*для вимкнення стандартного оформлення кнопки*/
+    height: 56px;
+    border-radius: 4px;
+    /*для визначення заокруглень у кнопки*/
 }
-.button:hover {background-color: #404BBF;}
-.button:focus {background-color: #404BBF;}
+
+.button:hover {
+    background-color: #404BBF;
+}
+
+.button:focus {
+    background-color: #404BBF;
+}
+
+/*section 2*/
+
+.section-about {
+    padding: 120px 0;
+}
+
+.h-about {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+
+.ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    gap: 24px;
+}
+
+.li-about {
+    width: calc ((100%-72px)/4);
+}
+
 
 .h-aboutus {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
-margin: 0;
-padding: 0;}
-
-.p-aboutus {
-line-height: 1.5;
-font-size: 16px;
-letter-spacing: 0.02em;
-color: #434455;
-margin: 0;
-padding: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin: 0;
+    padding: 0;
 }
 
+.p-aboutus {
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;
+    margin: 0;
+    padding: 0;
+}
+
+/*section 3*/
 .ourteam {
     background-color: #F4F4FD
 }
@@ -181,6 +254,7 @@ padding: 0;
 .ourteam {
     background-color: #F4F4FD
 }
+
 .ul-ourteam {
     margin: 0;
     padding-left: 0;
@@ -204,16 +278,16 @@ padding: 0;
     text-transform: capitalize;
     margin: 0;
     padding: 0;
-    }
+}
 
 .h-portfolio {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em; 
-color: #2e2f42;
-margin: 0;
-padding: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin: 0;
+    padding: 0;
 }
 
 .p-portfolio {
@@ -225,24 +299,13 @@ padding: 0;
     padding: 0;
 }
 
-.h-about {
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #ffffff;
+
+
+.li-portfolio {
+    list-style-type: none;
+    padding-left: 0;
     margin: 0;
-    padding: 0;
 }
-
- 
-.ul {list-style: none;
-padding-left: 0;
-margin: 0;}
-
-.li-portfolio {list-style-type: none;
-padding-left: 0;
-margin: 0;}
 
 
 .image-container {
@@ -261,7 +324,8 @@ margin: 0;}
 .footer {
     background-color: #2e2f42;
     padding-top: 100px;
-    padding-bottom: 100px; /*для визначення відступів всередині секції*/
+    padding-bottom: 100px;
+    /*для визначення відступів всередині секції*/
 }
 
 .logo-footer {
@@ -273,8 +337,10 @@ margin: 0;}
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    display: inline-block; /*для додавання посиланню блочних властивостей*/
-    margin-bottom: 16px; /*для визначення відступу між посиланням та параграфом*/
+    display: inline-block;
+    /*для додавання посиланню блочних властивостей*/
+    margin-bottom: 16px;
+    /*для визначення відступу між посиланням та параграфом*/
 }
 
 .logo-studio-footer {
@@ -287,7 +353,8 @@ margin: 0;}
     letter-spacing: 0.02em;
     margin: 0;
     padding: 0;
-    max-width: 264px; /*для визначення максимально допустимої ширини тексту*/
+    max-width: 264px;
+    /*для визначення максимально допустимої ширини тексту*/
     font-size: 16px;
     font-weight: 400;
     text-align: left;
