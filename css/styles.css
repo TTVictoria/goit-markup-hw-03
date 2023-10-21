@@ -188,7 +188,7 @@ body {
 /*section 2*/
 
 .section-about {
-    padding: 120px 0;
+    padding: 120px 0 120px; /*для визначення відступів всередині секції*/
 }
 
 .h-about {
@@ -200,7 +200,15 @@ body {
     margin: 0;
     padding: 0;
 }
-
+.visually-hidden {position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
 
 .ul {
     list-style: none;
@@ -211,7 +219,7 @@ body {
 }
 
 .li-about {
-    width: calc ((100%-72px)/4);
+    width: calc ((100%-72px)/4); /*для визначення ширини пункту списку*/
 }
 
 
@@ -223,6 +231,7 @@ body {
     color: #2e2f42;
     margin: 0;
     padding: 0;
+    margin-bottom: 8px; /*для визначення відступу між заголовком і параграфом*/
 }
 
 .p-aboutus {
