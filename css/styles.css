@@ -6,9 +6,14 @@ body {
     padding: 0;
 }
 
+.header-class {
+    display: flex;
+    border-bottom: 1px solid #e7e9fc;
+    justify-content: center;
+    align-items: center;
+}
 .container {
     border-bottom: 1px solid #e7e9fc;
-    max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
     display: flex;
@@ -17,14 +22,10 @@ body {
     /*для визначення відступів між пунктами меню*/
     justify-content: space-between;
     align-items: center;
+    width: 1158px;
 }
 
-.header-class {
-    display: flex;
-    bottom: 1px solid #e7e9fc;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .logo {
     color: var(--IRIS, #4D5AE5);
@@ -62,6 +63,7 @@ body {
     margin: 0;
     padding-left: 0;
     display: flex;
+    gap: 40px; /*для визначення відступів між пунктами меню*/
 }
 
 .a .nav-link {
