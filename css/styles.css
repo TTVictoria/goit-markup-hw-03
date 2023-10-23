@@ -391,10 +391,12 @@ body {
     margin-bottom: 16px;
     /*для визначення відступу між посиланням та параграфом*/
     display: inline-block;
+    /*для додавання посиланню блочних властивостей*/
 }
 
 .logo-studio-footer {
     color: #f4f4fd;
+    display: inline-block;
 }
 
 .footer-paragraph {
