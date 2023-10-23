@@ -205,7 +205,7 @@ body {
     margin: 0;
     padding: 0;
 }
-.visually-hidden .h-about {position: absolute;
+.visually-hidden {
     width: 1px;
     height: 1px;
     padding: 0;
