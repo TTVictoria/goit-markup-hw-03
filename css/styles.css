@@ -202,22 +202,21 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-    margin: 0;
-    padding: 0;
-}
-.visually-hidden {
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
-    position: absolute;
 }
 
-.ul {
+.visually-hidden {
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+}
+
+.ull {
     list-style: none;
     padding-left: 0;
     margin: 0;
@@ -227,7 +226,7 @@ body {
 
 
 .li-about {
-    width: calc ((100%-72px)/4); /*для визначення ширини пункту списку*/
+    flex-basis: calc((100% - 3 * 24px) / 4); /*для визначення ширини пункту списку*/
 }
 
 
@@ -271,9 +270,9 @@ body {
     padding: 0;
     margin-bottom: 72px;
     font-weight: 700;
-    line-height: 40px;
+    width: 162px;
+    height: 40px;
 }
-
 
 
 .ul-ourteam {
@@ -290,6 +289,7 @@ body {
     padding-left: 0;
     border-radius: 0px 0px 4px 4px; /*для визначення заокруглень внизу блока*/
     width: calc((100% - 72px) / 4); /*для визначення ширини пункту списку*/
+    gap: 32px;
 }
 .img {
     display: block;
