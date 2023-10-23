@@ -289,7 +289,9 @@ body {
     border-radius: 0px 0px 4px 4px; /*для визначення заокруглень внизу блока*/
     width: calc((100% - 72px) / 4); /*для визначення ширини пункту списку*/
 }
-.img {display: block;}
+.img {
+    display: block;
+}
 .image-container {
     display: block;
     width: 100%;
