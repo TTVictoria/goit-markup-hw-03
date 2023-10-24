@@ -13,18 +13,18 @@ body {
     align-items: center;
 }
 .container {
-    border-bottom: 1px solid #e7e9fc;
     margin: 0 auto;
     padding: 0 15px;
-    display: flex;
-    /*для розташування пунктів меню по горизонталі*/
-    gap: 40px;
-    /*для визначення відступів між пунктами меню*/
-    justify-content: space-between;
-    align-items: center;
     width: 1158px;
 }
 
+.container-two {
+    border-bottom: 1px solid #e7e9fc;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .logo {
     color: var(--IRIS, #4D5AE5);
@@ -366,7 +366,7 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
-    padding: 32px 0px; /*для визначення відступів від країв контейнера*/
+    padding: 32px 0; /*для визначення відступів від країв контейнера*/
     border: 1px solid #e7e9fc; /*для визначення стилю обводки по периметру контейнера*/
     border-top: none; /*для скидання стилів обводки для верхнього краю контейнера*/
 }
