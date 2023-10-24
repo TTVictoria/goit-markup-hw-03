@@ -309,6 +309,10 @@ img {
     padding-top: 120px;
     padding-bottom: 120px; /*для визначення відступів всередині секції*/
 }
+
+.container-three {
+    padding: 32px 16px;
+}
 .hh-portfolio {
     font-family: "Roboto";
     font-weight: 700;
