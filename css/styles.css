@@ -106,6 +106,7 @@ body {
     margin: 0;
     padding-left: 0;
     display: block;
+    padding: 24px 0;
 }
 
 .address {
@@ -243,6 +244,7 @@ body {
     color: #2e2f42;
     margin: 0;
     padding: 0;
+    text-align: center;
     margin-bottom: 8px; /*для визначення відступу між заголовком і параграфом*/
 }
 
@@ -253,6 +255,7 @@ body {
     color: #434455;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 /*section 3*/
@@ -300,7 +303,6 @@ img {
 .image-container {
     display: block;
     width: 100%;
-    
     padding: 32px 0; /*для визначення відступів від краю контейнера*/
 
 }
