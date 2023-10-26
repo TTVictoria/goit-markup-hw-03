@@ -105,6 +105,7 @@ body {
     text-decoration: none;
     margin: 0;
     padding-left: 0;
+    display: block;
 }
 
 .address {
@@ -120,6 +121,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-decoration: none;
 }
 
 .kontakt:hover {
@@ -251,7 +253,6 @@ body {
     color: #434455;
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 
 /*section 3*/
@@ -330,6 +331,9 @@ img {
     flex-wrap: wrap; /*для переносу елементів списку на новий рядок якщо їм не вистачає місця в попередньому*/
     column-gap: 24px; /*для визначення горизонтальних відступів між пунктами списку*/
     row-gap: 48px; /*для визначення вертикальних відступів між елементами списку якщо вони переносяться на новий рядок*/
+    margin: 0;
+    padding: 0;
+    
 }
 
 
