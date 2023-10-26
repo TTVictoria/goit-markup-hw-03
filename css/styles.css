@@ -300,7 +300,7 @@ img {
 .image-container {
     display: block;
     width: 100%;
-    text-align: center;
+    
     padding: 32px 0; /*для визначення відступів від краю контейнера*/
 
 }
