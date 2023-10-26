@@ -105,7 +105,6 @@ body {
     text-decoration: none;
     margin: 0;
     padding-left: 0;
-    padding: 24px 0;
 }
 
 .address {
@@ -158,6 +157,7 @@ body {
     margin: 0;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 48px;
     padding: 0;
     max-width: 496px;
     height: 120px;
@@ -242,7 +242,6 @@ body {
     margin: 0;
     padding: 0;
     margin-bottom: 8px; /*для визначення відступу між заголовком і параграфом*/
-    text-align: center;
 }
 
 .p-aboutus {
@@ -262,7 +261,7 @@ body {
 }
 
 .h-ourteam {
-    font-family: "Roboto";
+    
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -273,8 +272,8 @@ body {
     padding: 0;
     margin-bottom: 72px;
     font-weight: 700;
-    width: 162px;
-    height: 40px;
+
+
 }
 
 
